@@ -8,21 +8,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" />
   <title>ioaXalex's website</title>
   <meta name="description" content="This is ours portofolio" />
-  <head>
-    <p><h1>This is Alex Cantea and Ioachim Diaconu's portofolio.</h1></p>
-  </head>
   <style>
-  body {
-    background-image: url('bg mare.jpg');
-  }
-  #content-list {
-    float: left;
-    margin-left:50px;
-  }
+    body {
+      background-image: url('bg mare.jpg');
+      margin: 0;
+      padding: 0;
+    }
+
+    .content-list {
+      float: left;
+      margin-left: 0;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.85);
+      /* Optional: makes it readable */
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
   </style>
+</head>
 
 <body>
-  <div class="content-list">
+  <h1>This is Alex Cantea and Ioachim Diaconu's portofolio.</h1>
+  <div class="content-list" id="content-list">
     <h3>Here is a content list:</h3>
     <h5>1. About us</h5>
     <h5>2. Projects</h5>
