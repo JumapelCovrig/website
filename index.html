@@ -2,62 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script defer src="/_vercel/insights/script.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" />
-  <title>ioaXalex's website</title>
-  <meta name="description" content="This is ours portofolio" />
-  <style>
-    body {
-      background-image: url('bg mare.jpg');
-      margin: 0;
-      padding: 0;
-    }
-
-    .header {
-      text-align: right;
-      margin-right: 50px;
-      padding: 1rem;
-      color: white;
-      font-size: 3rem;
-      margin-top: 2rem;
-    }
-
-    .content-list {
-      float: left;
-      margin-left: 0;
-      padding: 1rem;
-      border-top-right-radius: 8px;
-      border-bottom-right-radius: 8px;
-    }
-
-    .center-text {
-      display: flex;
-      justify-content: right;
-      align-items: right;
-      height: 60vh;
-      font-size: 2rem;
-      color: white;
-      text-shadow: 1px 1px 4px #000;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>This is Alex Cantea and Ioachim Diaconu's portofolio</title>
+  <meta name="description" content="Portofolio site" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <div class="center-text">
-    This is Alex
-  </div>
-  <div class="header" id="header">
+  <div class="site-header">
     <h1>This is Alex Cantea and Ioachim Diaconu's portofolio</h1>
   </div>
-  <div class="content-list" id="content-list">
+
+  <nav class="content-list" id="content-list">
     <h3>Here is a content list:</h3>
-    <h5>1. About us</h5>
-    <h5>2. Projects</h5>
-    <h5>3. Contact</h5>
-    <h5>4. Social Media</h5>
-  </div>
+    <div class="menu">
+      <a class="btn" href="about.html">About us</a>
+      <a class="btn" href="videos.html">Video Projects</a>
+      <a class="btn" href="robotics.html">Robotics Projects</a>
+    </div>
+  </nav>
+
+  <main class="main-area">
+    <div class="center-text">This is Alex</div>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
